@@ -1,13 +1,16 @@
 pip install -r requirements.txt
 
 ## DC preprocess
-python preprocess/DC/add_annotation.py # data/DC/dundee_corpus_utf8 and data/DC/treebank are removed considering the licence
+python preprocess/DC/add_annotation.py # some files are removed considering the dataset licence
 python preprocess/DC/filter.py # zero filtering 
 python preprocess/DC/sents4language_models.py
 
 ## NS preprocess
 python preprocess/NS/filter.py
 python preprocess/NS/sents4language_models.py
+
+
+### preprocessed files are included in this repository, so oe can simply start the experiments below ####
 
 ## DC modeling
 python experiments/calc_surprisal_gpt2.py -m gpt2 

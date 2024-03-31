@@ -1,11 +1,3 @@
-.venv
-all.txt.annotation
-all.txt.annotation.filtered.csv
-config.py
-data/NS/naturalstories
-**/olds
-*.json
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
