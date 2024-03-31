@@ -1,5 +1,5 @@
 ## Psychometric Predictive Power of Large Language Models
-This repository contains code of the paper: [Psychometric Predictive Power of Large Language Models (Kuribayashi et al., 2024)](https://arxiv.org/abs/2311.07484)  
+This repository contains the code of the paper: [Psychometric Predictive Power of Large Language Models (Kuribayashi et al., 2024)](https://arxiv.org/abs/2311.07484)  
 This study explores how well large language models such as LLaMA-2 can simulate human reading behavior with their computed information-theoretic values.
 
 ## Experiments

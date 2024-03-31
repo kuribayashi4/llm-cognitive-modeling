@@ -10,7 +10,7 @@ python preprocess/NS/filter.py
 python preprocess/NS/sents4language_models.py
 
 
-### preprocessed files are included in this repository, so oe can simply start the experiments below ####
+### preprocessed files are included in this repository, so one can simply start the experiments below ####
 
 ## DC modeling
 python experiments/calc_surprisal_gpt2.py -m gpt2 
