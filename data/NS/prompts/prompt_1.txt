@@ -1,0 +1,21 @@
+Suppose humans read the following sentence: "Of the hundreds of witnesses that the various researchers interviewed, a seemingly impressive figure, a comparable few were true 'witnesses' who claimed to have actually seen debris or aliens." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: Of, 1: the, 2: hundreds, 3: of, 4: witnesses, 5: that, 6: the, 7: various, 8: researchers, 9: interviewed,, 10: a, 11: seemingly, 12: impressive, 13: figure,, 14: a, 15: comparable, 16: few, 17: were, 18: true, 19: 'witnesses', 20: who, 21: claimed, 22: to, 23: have, 24: actually, 25: seen, 26: debris, 27: or, 28: aliens., 
+Answer:
+9: interviewed,, 18: true, 14: a, 19: 'witnesses', 20: who, 10: a, 8: researchers, 15: comparable, 28: aliens., 12: impressive, 13: figure,, 17: were, 5: that, 7: various, 16: few, 11: seemingly, 3: of, 4: witnesses, 22: to, 6: the, 26: debris, 25: seen, 2: hundreds, 21: claimed, 27: or, 1: the, 0: Of, 24: actually, 23: have,
+
+Suppose humans read the following sentence: "I know you will go away when the match burns out!'" 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: I, 1: know, 2: you, 3: will, 4: go, 5: away, 6: when, 7: the, 8: match, 9: burns, 10: out!', 
+Answer:
+9: burns, 0: I, 10: out!', 5: away, 4: go, 6: when, 2: you, 3: will, 8: match, 7: the, 1: know,
+
+Suppose humans read the following sentence: "It was a short, stubby match that the little girl next rubbed on the wall." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: It, 1: was, 2: a, 3: short,, 4: stubby, 5: match, 6: that, 7: the, 8: little, 9: girl, 10: next, 11: rubbed, 12: on, 13: the, 14: wall., 
+Answer:
+14: wall., 3: short,, 4: stubby, 12: on, 10: next, 13: the, 11: rubbed, 5: match, 6: that, 7: the, 0: It, 2: a, 8: little, 9: girl, 1: was,
+

@@ -1,0 +1,21 @@
+Suppose humans read the following sentence: "Besides, it was almost as cold at home as outside, for they had only a patchy roof to cover them." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: Besides,, 1: it, 2: was, 3: almost, 4: as, 5: cold, 6: at, 7: home, 8: as, 9: outside,, 10: for, 11: they, 12: had, 13: only, 14: a, 15: patchy, 16: roof, 17: to, 18: cover, 19: them., 
+Answer:
+9: outside,, 19: them., 0: Besides,, 17: to, 15: patchy, 6: at, 16: roof, 8: as, 1: it, 5: cold, 7: home, 11: they, 10: for, 18: cover, 14: a, 13: only, 2: was, 4: as, 12: had, 3: almost,
+
+Suppose humans read the following sentence: "Poor little Aqua, frightened by the impending cold and darkness, wished he could sleep not in the sky, but somewhere closer to earth." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: Poor, 1: little, 2: Aqua,, 3: frightened, 4: by, 5: the, 6: impending, 7: cold, 8: and, 9: darkness,, 10: wished, 11: he, 12: could, 13: sleep, 14: not, 15: in, 16: the, 17: sky,, 18: but, 19: somewhere, 20: closer, 21: to, 22: earth., 
+Answer:
+22: earth., 2: Aqua,, 3: frightened, 6: impending, 9: darkness,, 0: Poor, 19: somewhere, 7: cold, 5: the, 8: and, 10: wished, 11: he, 18: but, 15: in, 4: by, 16: the, 14: not, 1: little, 13: sleep, 12: could, 17: sky,, 21: to, 20: closer,
+
+Suppose humans read the following sentence: "During the nineteen eighties and nineteen nineties, a new narrative emerged which was at strong odds with what was reported in nineteen forty-seven." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: During, 1: the, 2: nineteen, 3: eighties, 4: and, 5: nineteen, 6: nineties,, 7: a, 8: new, 9: narrative, 10: emerged, 11: which, 12: was, 13: at, 14: strong, 15: odds, 16: with, 17: what, 18: was, 19: reported, 20: in, 21: nineteen, 22: forty-seven., 
+Answer:
+21: nineteen, 22: forty-seven., 10: emerged, 0: During, 2: nineteen, 3: eighties, 5: nineteen, 14: strong, 4: and, 11: which, 6: nineties,, 9: narrative, 19: reported, 12: was, 8: new, 7: a, 15: odds, 13: at, 20: in, 17: what, 18: was, 1: the, 16: with,
+

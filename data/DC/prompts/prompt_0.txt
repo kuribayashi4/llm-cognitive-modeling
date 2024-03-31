@@ -1,0 +1,21 @@
+Suppose humans read the following sentence: "This week, a new work from Elizabeth Wurtzel is in the bookshops, recounting her latest addiction, this time to Ritalin, the drug given to hyperactive children." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: This, 1: week,, 2: a, 3: new, 4: work, 5: from, 6: Elizabeth, 7: Wurtzel, 8: is, 9: in, 10: the, 11: bookshops,, 12: recounting, 13: her, 14: latest, 15: addiction,, 16: this, 17: time, 18: to, 19: Ritalin,, 20: the, 21: drug, 22: given, 23: to, 24: hyperactive, 25: children., 
+Answer:
+7: Wurtzel, 19: Ritalin,, 6: Elizabeth, 12: recounting, 11: bookshops,, 14: latest, 1: week,, 3: new, 23: to, 24: hyperactive, 4: work, 20: the, 25: children., 15: addiction,, 21: drug, 16: this, 5: from, 17: time, 22: given, 9: in, 0: This, 10: the, 8: is, 13: her, 2: a, 18: to,
+
+Suppose humans read the following sentence: "When we got back from our waterfall trip, we found him on the hotel terrace drinking beer and dealing with his fan mail." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: When, 1: we, 2: got, 3: back, 4: from, 5: our, 6: waterfall, 7: trip,, 8: we, 9: found, 10: him, 11: on, 12: the, 13: hotel, 14: terrace, 15: drinking, 16: beer, 17: and, 18: dealing, 19: with, 20: his, 21: fan, 22: mail., 
+Answer:
+1: we, 13: hotel, 6: waterfall, 0: When, 9: found, 2: got, 22: mail., 20: his, 21: fan, 18: dealing, 17: and, 14: terrace, 15: drinking, 8: we, 12: the, 19: with, 7: trip,, 3: back, 16: beer, 4: from, 11: on, 10: him, 5: our,
+
+Suppose humans read the following sentence: "Alcohol- related illnesses." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: Alcohol-, 1: related, 2: illnesses., 
+Answer:
+1: related, 0: Alcohol-, 2: illnesses.,
+

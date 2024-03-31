@@ -1,0 +1,21 @@
+Suppose humans read the following sentence: "The question is whether the US is going to act against its enemies in a way that creates even more enemies." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: The, 1: question, 2: is, 3: whether, 4: the, 5: US, 6: is, 7: going, 8: to, 9: act, 10: against, 11: its, 12: enemies, 13: in, 14: a, 15: way, 16: that, 17: creates, 18: even, 19: more, 20: enemies., 
+Answer:
+13: in, 1: question, 17: creates, 11: its, 3: whether, 10: against, 6: is, 16: that, 19: more, 15: way, 0: The, 12: enemies, 7: going, 5: US, 18: even, 9: act, 20: enemies., 8: to, 14: a, 4: the, 2: is,
+
+Suppose humans read the following sentence: "Indeed, on the so-called 'technical definition' (two successive quarters of declining GDP), recession is avoided." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: Indeed,, 1: on, 2: the, 3: so-called, 4: 'technical, 5: definition', 6: (two, 7: successive, 8: quarters, 9: of, 10: declining, 11: GDP),, 12: recession, 13: is, 14: avoided., 
+Answer:
+14: avoided., 12: recession, 3: so-called, 5: definition', 10: declining, 13: is, 8: quarters, 4: 'technical, 11: GDP),, 7: successive, 6: (two, 0: Indeed,, 1: on, 2: the, 9: of,
+
+Suppose humans read the following sentence: "You see entire families sitting at doughnut stalls with buckets of doughnuts between their knees." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: You, 1: see, 2: entire, 3: families, 4: sitting, 5: at, 6: doughnut, 7: stalls, 8: with, 9: buckets, 10: of, 11: doughnuts, 12: between, 13: their, 14: knees., 
+Answer:
+6: doughnut, 9: buckets, 11: doughnuts, 4: sitting, 2: entire, 1: see, 7: stalls, 14: knees., 5: at, 0: You, 3: families, 12: between, 10: of, 13: their, 8: with,
+

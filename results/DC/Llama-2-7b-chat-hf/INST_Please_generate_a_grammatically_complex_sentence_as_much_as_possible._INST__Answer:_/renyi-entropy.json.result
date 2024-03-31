@@ -1,0 +1,37 @@
+delta loglik: 606.1013024497661
+delta loglik per tokens: 0.012410190676503738
+average surprisal: 8.038058185456391
+perplexity: 262.8431242389505
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   time   R-squared:                       0.249
+Model:                            OLS   Adj. R-squared:                  0.248
+Method:                 Least Squares   F-statistic:                     1794.
+Date:                Fri, 29 Mar 2024   Prob (F-statistic):               0.00
+Time:                        17:01:29   Log-Likelihood:            -2.5828e+05
+No. Observations:               48839   AIC:                         5.166e+05
+Df Residuals:                   48829   BIC:                         5.167e+05
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+Intercept               196.6076      2.766     71.074      0.000     191.186     202.030
+interest                  3.1115      0.089     35.030      0.000       2.937       3.286
+surprisal_prev_1         -0.0387      0.082     -0.470      0.638      -0.200       0.123
+surprisal_prev_2         -0.0567      0.084     -0.673      0.501      -0.222       0.108
+length                    7.1851      0.108     66.507      0.000       6.973       7.397
+log_gmean_freq           -1.6600      0.106    -15.629      0.000      -1.868      -1.452
+length_prev_1            -0.9300      0.098     -9.487      0.000      -1.122      -0.738
+log_gmean_freq_prev_1    -0.9836      0.108     -9.124      0.000      -1.195      -0.772
+length_prev_2             1.4581      0.097     15.005      0.000       1.268       1.649
+log_gmean_freq_prev_2    -0.0737      0.107     -0.692      0.489      -0.283       0.135
+==============================================================================
+Omnibus:                     6167.085   Durbin-Watson:                   1.811
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            16683.208
+Skew:                           0.703   Prob(JB):                         0.00
+Kurtosis:                       5.494   Cond. No.                         295.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

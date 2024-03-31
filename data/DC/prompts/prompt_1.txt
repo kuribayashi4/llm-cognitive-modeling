@@ -1,0 +1,21 @@
+Suppose humans read the following sentence: "Parliament has only itself to blame if its proceedings are such a turn-off." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: Parliament, 1: has, 2: only, 3: itself, 4: to, 5: blame, 6: if, 7: its, 8: proceedings, 9: are, 10: such, 11: a, 12: turn-off., 
+Answer:
+3: itself, 8: proceedings, 12: turn-off., 6: if, 7: its, 9: are, 10: such, 0: Parliament, 5: blame, 11: a, 2: only, 4: to, 1: has,
+
+Suppose humans read the following sentence: "Yesterday's report on cloning from the Lords select committee on stem-cell research gives the thumbs-up to a technique that, it says, offers 'real and great hope for a range of common diseases'." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: Yesterday's, 1: report, 2: on, 3: cloning, 4: from, 5: the, 6: Lords, 7: select, 8: committee, 9: on, 10: stem-cell, 11: research, 12: gives, 13: the, 14: thumbs-up, 15: to, 16: a, 17: technique, 18: that,, 19: it, 20: says,, 21: offers, 22: 'real, 23: and, 24: great, 25: hope, 26: for, 27: a, 28: range, 29: of, 30: common, 31: diseases'., 
+Answer:
+0: Yesterday's, 3: cloning, 28: range, 20: says,, 1: report, 14: thumbs-up, 4: from, 29: of, 31: diseases'., 11: research, 17: technique, 7: select, 30: common, 2: on, 13: the, 22: 'real, 10: stem-cell, 21: offers, 24: great, 6: Lords, 23: and, 8: committee, 26: for, 12: gives, 25: hope, 27: a, 16: a, 5: the, 19: it, 18: that,, 15: to, 9: on,
+
+Suppose humans read the following sentence: "Alternatively, your company may have an additional voluntary contribution (AVC) scheme that you can put money into." 
+List the tokens and their IDs in order of their reading cost (high to low) during sentence processing.
+Token ID:
+0: Alternatively,, 1: your, 2: company, 3: may, 4: have, 5: an, 6: additional, 7: voluntary, 8: contribution, 9: (AVC), 10: scheme, 11: that, 12: you, 13: can, 14: put, 15: money, 16: into., 
+Answer:
+3: may, 10: scheme, 9: (AVC), 6: additional, 16: into., 0: Alternatively,, 12: you, 4: have, 11: that, 13: can, 7: voluntary, 15: money, 2: company, 5: an, 1: your, 14: put, 8: contribution,
+

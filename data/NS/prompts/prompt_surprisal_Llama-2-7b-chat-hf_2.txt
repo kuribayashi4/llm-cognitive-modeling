@@ -1,0 +1,21 @@
+Suppose you read the following sentence: "Besides, it was almost as cold at home as outside, for they had only a patchy roof to cover them." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: Besides,, 1: it, 2: was, 3: almost, 4: as, 5: cold, 6: at, 7: home, 8: as, 9: outside,, 10: for, 11: they, 12: had, 13: only, 14: a, 15: patchy, 16: roof, 17: to, 18: cover, 19: them., 
+Answer:
+15: patchy, 0: Besides,, 9: outside,, 5: cold, 16: roof, 10: for, 3: almost, 13: only, 6: at, 11: they, 2: was, 4: as, 19: them., 1: it, 17: to, 18: cover, 7: home, 14: a, 8: as, 12: had,
+
+Suppose you read the following sentence: "Poor little Aqua, frightened by the impending cold and darkness, wished he could sleep not in the sky, but somewhere closer to earth." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: Poor, 1: little, 2: Aqua,, 3: frightened, 4: by, 5: the, 6: impending, 7: cold, 8: and, 9: darkness,, 10: wished, 11: he, 12: could, 13: sleep, 14: not, 15: in, 16: the, 17: sky,, 18: but, 19: somewhere, 20: closer, 21: to, 22: earth., 
+Answer:
+2: Aqua,, 0: Poor, 3: frightened, 14: not, 10: wished, 13: sleep, 17: sky,, 6: impending, 7: cold, 22: earth., 20: closer, 1: little, 11: he, 19: somewhere, 8: and, 9: darkness,, 15: in, 5: the, 16: the, 4: by, 12: could, 18: but, 21: to,
+
+Suppose you read the following sentence: "During the nineteen eighties and nineteen nineties, a new narrative emerged which was at strong odds with what was reported in nineteen forty-seven." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: During, 1: the, 2: nineteen, 3: eighties, 4: and, 5: nineteen, 6: nineties,, 7: a, 8: new, 9: narrative, 10: emerged, 11: which, 12: was, 13: at, 14: strong, 15: odds, 16: with, 17: what, 18: was, 19: reported, 20: in, 21: nineteen, 22: forty-seven., 
+Answer:
+14: strong, 0: During, 2: nineteen, 13: at, 22: forty-seven., 9: narrative, 19: reported, 12: was, 17: what, 21: nineteen, 11: which, 7: a, 15: odds, 3: eighties, 8: new, 4: and, 18: was, 5: nineteen, 20: in, 10: emerged, 1: the, 6: nineties,, 16: with,
+

@@ -1,0 +1,21 @@
+Suppose you read the following sentence: "Of the hundreds of witnesses that the various researchers interviewed, a seemingly impressive figure, a comparable few were true 'witnesses' who claimed to have actually seen debris or aliens." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: Of, 1: the, 2: hundreds, 3: of, 4: witnesses, 5: that, 6: the, 7: various, 8: researchers, 9: interviewed,, 10: a, 11: seemingly, 12: impressive, 13: figure,, 14: a, 15: comparable, 16: few, 17: were, 18: true, 19: 'witnesses', 20: who, 21: claimed, 22: to, 23: have, 24: actually, 25: seen, 26: debris, 27: or, 28: aliens., 
+Answer:
+15: comparable, 26: debris, 0: Of, 13: figure,, 19: 'witnesses', 4: witnesses, 11: seemingly, 12: impressive, 18: true, 7: various, 8: researchers, 2: hundreds, 16: few, 28: aliens., 21: claimed, 14: a, 10: a, 5: that, 20: who, 6: the, 27: or, 1: the, 17: were, 9: interviewed,, 24: actually, 25: seen, 22: to, 23: have, 3: of,
+
+Suppose you read the following sentence: "I know you will go away when the match burns out!'" 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: I, 1: know, 2: you, 3: will, 4: go, 5: away, 6: when, 7: the, 8: match, 9: burns, 10: out!', 
+Answer:
+10: out!', 8: match, 9: burns, 0: I, 4: go, 6: when, 1: know, 3: will, 5: away, 2: you, 7: the,
+
+Suppose you read the following sentence: "It was a short, stubby match that the little girl next rubbed on the wall." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: It, 1: was, 2: a, 3: short,, 4: stubby, 5: match, 6: that, 7: the, 8: little, 9: girl, 10: next, 11: rubbed, 12: on, 13: the, 14: wall., 
+Answer:
+11: rubbed, 4: stubby, 5: match, 3: short,, 0: It, 10: next, 8: little, 7: the, 14: wall., 6: that, 1: was, 2: a, 9: girl, 12: on, 13: the,
+

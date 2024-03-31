@@ -1,0 +1,21 @@
+Suppose you read the following sentence: "During the fuss surrounding publication, he and other writers and actors began to campaign for Abbott's release on parole." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: During, 1: the, 2: fuss, 3: surrounding, 4: publication,, 5: he, 6: and, 7: other, 8: writers, 9: and, 10: actors, 11: began, 12: to, 13: campaign, 14: for, 15: Abbott's, 16: release, 17: on, 18: parole., 
+Answer:
+2: fuss, 4: publication,, 0: During, 15: Abbott's, 10: actors, 3: surrounding, 13: campaign, 6: and, 5: he, 17: on, 7: other, 11: began, 18: parole., 9: and, 8: writers, 16: release, 1: the, 12: to, 14: for,
+
+Suppose you read the following sentence: "Alternatively, your company may have an additional voluntary contribution (AVC) scheme that you can put money into." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: Alternatively,, 1: your, 2: company, 3: may, 4: have, 5: an, 6: additional, 7: voluntary, 8: contribution, 9: (AVC), 10: scheme, 11: that, 12: you, 13: can, 14: put, 15: money, 16: into., 
+Answer:
+0: Alternatively,, 6: additional, 1: your, 7: voluntary, 14: put, 2: company, 9: (AVC), 5: an, 11: that, 4: have, 8: contribution, 16: into., 15: money, 12: you, 3: may, 13: can, 10: scheme,
+
+Suppose you read the following sentence: "The question is whether the US is going to act against its enemies in a way that creates even more enemies." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: The, 1: question, 2: is, 3: whether, 4: the, 5: US, 6: is, 7: going, 8: to, 9: act, 10: against, 11: its, 12: enemies, 13: in, 14: a, 15: way, 16: that, 17: creates, 18: even, 19: more, 20: enemies., 
+Answer:
+0: The, 1: question, 17: creates, 18: even, 9: act, 12: enemies, 10: against, 5: US, 11: its, 7: going, 14: a, 20: enemies., 6: is, 3: whether, 15: way, 2: is, 4: the, 13: in, 19: more, 16: that, 8: to,
+

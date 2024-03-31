@@ -1,0 +1,21 @@
+Suppose you read the following sentence: "This week, a new work from Elizabeth Wurtzel is in the bookshops, recounting her latest addiction, this time to Ritalin, the drug given to hyperactive children." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: This, 1: week,, 2: a, 3: new, 4: work, 5: from, 6: Elizabeth, 7: Wurtzel, 8: is, 9: in, 10: the, 11: bookshops,, 12: recounting, 13: her, 14: latest, 15: addiction,, 16: this, 17: time, 18: to, 19: Ritalin,, 20: the, 21: drug, 22: given, 23: to, 24: hyperactive, 25: children., 
+Answer:
+11: bookshops,, 0: This, 15: addiction,, 4: work, 19: Ritalin,, 12: recounting, 1: week,, 14: latest, 6: Elizabeth, 7: Wurtzel, 24: hyperactive, 5: from, 22: given, 9: in, 2: a, 8: is, 16: this, 3: new, 21: drug, 20: the, 25: children., 13: her, 10: the, 23: to, 18: to, 17: time,
+
+Suppose you read the following sentence: "When we got back from our waterfall trip, we found him on the hotel terrace drinking beer and dealing with his fan mail." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: When, 1: we, 2: got, 3: back, 4: from, 5: our, 6: waterfall, 7: trip,, 8: we, 9: found, 10: him, 11: on, 12: the, 13: hotel, 14: terrace, 15: drinking, 16: beer, 17: and, 18: dealing, 19: with, 20: his, 21: fan, 22: mail., 
+Answer:
+18: dealing, 0: When, 6: waterfall, 10: him, 13: hotel, 2: got, 21: fan, 22: mail., 14: terrace, 15: drinking, 1: we, 7: trip,, 11: on, 20: his, 3: back, 9: found, 16: beer, 17: and, 5: our, 8: we, 19: with, 4: from, 12: the,
+
+Suppose you read the following sentence: "Of course this is something to do with the fact that most women don't look like Blanchett or Minogue, and tend to be in a state of permanent anxiety about their appearance." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: Of, 1: course, 2: this, 3: is, 4: something, 5: to, 6: do, 7: with, 8: the, 9: fact, 10: that, 11: most, 12: women, 13: don't, 14: look, 15: like, 16: Blanchett, 17: or, 18: Minogue,, 19: and, 20: tend, 21: to, 22: be, 23: in, 24: a, 25: state, 26: of, 27: permanent, 28: anxiety, 29: about, 30: their, 31: appearance., 
+Answer:
+16: Blanchett, 0: Of, 18: Minogue,, 20: tend, 4: something, 2: this, 23: in, 9: fact, 14: look, 5: to, 28: anxiety, 11: most, 12: women, 25: state, 27: permanent, 13: don't, 6: do, 24: a, 17: or, 8: the, 19: and, 22: be, 31: appearance., 1: course, 7: with, 3: is, 15: like, 29: about, 30: their, 21: to, 10: that, 26: of,
+

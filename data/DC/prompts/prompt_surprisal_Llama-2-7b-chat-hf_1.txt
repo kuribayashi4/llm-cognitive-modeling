@@ -1,0 +1,21 @@
+Suppose you read the following sentence: "Alcohol- related illnesses." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: Alcohol-, 1: related, 2: illnesses., 
+Answer:
+0: Alcohol-, 2: illnesses., 1: related,
+
+Suppose you read the following sentence: "Parliament has only itself to blame if its proceedings are such a turn-off." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: Parliament, 1: has, 2: only, 3: itself, 4: to, 5: blame, 6: if, 7: its, 8: proceedings, 9: are, 10: such, 11: a, 12: turn-off., 
+Answer:
+0: Parliament, 10: such, 12: turn-off., 2: only, 8: proceedings, 1: has, 7: its, 6: if, 3: itself, 11: a, 9: are, 4: to, 5: blame,
+
+Suppose you read the following sentence: "Yesterday's report on cloning from the Lords select committee on stem-cell research gives the thumbs-up to a technique that, it says, offers 'real and great hope for a range of common diseases'." 
+List the tokens and their IDs in order of their probability in context (low to high).
+Token ID:
+0: Yesterday's, 1: report, 2: on, 3: cloning, 4: from, 5: the, 6: Lords, 7: select, 8: committee, 9: on, 10: stem-cell, 11: research, 12: gives, 13: the, 14: thumbs-up, 15: to, 16: a, 17: technique, 18: that,, 19: it, 20: says,, 21: offers, 22: 'real, 23: and, 24: great, 25: hope, 26: for, 27: a, 28: range, 29: of, 30: common, 31: diseases'., 
+Answer:
+0: Yesterday's, 10: stem-cell, 3: cloning, 6: Lords, 22: 'real, 24: great, 30: common, 14: thumbs-up, 12: gives, 17: technique, 18: that,, 1: report, 21: offers, 16: a, 27: a, 23: and, 4: from, 20: says,, 19: it, 7: select, 13: the, 26: for, 28: range, 2: on, 31: diseases'., 11: research, 25: hope, 5: the, 9: on, 15: to, 8: committee, 29: of,
+
